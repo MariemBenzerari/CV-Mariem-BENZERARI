@@ -125,10 +125,3 @@ function displayCV(cv) {
 }
 
 displayCV(cvData);
-
-
-
-
-
-
-
