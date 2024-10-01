@@ -1,5 +1,5 @@
 # CV de Mariem Benzerari
-Bienvenue sur mon CV en code pour postuler au poste de Développeuse Full Stack chez SAP Labs.
+Bienvenue sur mon CV en code pour postuler au stage de Développeuse Full Stack chez SAP Labs.
 
 ## Détails du projet
 Rédigé en Python, ce CV reflète ma capacité à penser différemment et à proposer une approche originale pour me présenter dans le domaine du développement.
