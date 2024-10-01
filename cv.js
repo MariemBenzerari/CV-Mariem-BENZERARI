@@ -125,12 +125,7 @@ function displayCV(cv) {
 }
 
 displayCV(cvData);
-Explication des modifications :
-Couleurs modernes : Utilisation de bleu (#1e90ff) pour les titres, et un fond clair pour rendre l’ensemble du CV plus élégant.
-Design épuré : Le design est simple mais efficace, avec un header coloré et un contenu central aligné.
-Sections bien distinctes : Chaque section du CV est séparée pour plus de lisibilité, avec un fond blanc pour bien contraster avec le texte.
-Interaction utilisateur : Les liens pour ton email et LinkedIn sont interactifs avec un effet visuel lorsque l’on passe la souris dessus.
-Une fois que tu as intégré cette version du CV dans ton dépôt GitHub
+
 
 
 
