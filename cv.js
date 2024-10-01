@@ -52,11 +52,13 @@ const cvData = {
     }
   ],
   skills: [
-    "Gestion de projets",
-    "Analyse de données",
-    "Business Development",
-    "Technologies Digitales",
-    "Voyages Responsables"
+    "Gestion de projet : Lancement de produits SaaS, campagnes marketing B2B, adoption de nouvelles technologies.",
+    "Analyse de données : Préparation et présentation d’analyses de KPI pour optimiser la performance des fournisseurs.",
+    "Business Development : Négociation de contrats, gestion de partenariats, analyse de la performance des partenaires.",
+    "SaaS & Travel Tech : Solutions LaaS, MaaS, WaaS, gestion des voyages d'affaires.",
+    "Upselling stratégique : Proposition de solutions personnalisées pour accroître la part de marché des fournisseurs.",
+    "Leadership & Management : Formation d’équipes, gestion des opérations hôtelières, pilotage de projets transversaux.",
+    "Connectivité : Gestion des partenariats, réalisations des mappings avec les channel managers."
   ],
   languages: [
     "Français",
@@ -64,7 +66,7 @@ const cvData = {
   ],
   interests: [
     "Technologies Digitales",
-    "Voyages responsables"
+    "Voyages Responsables"
   ]
 };
 
@@ -72,11 +74,13 @@ function displayCV(cv) {
   const cvContent = document.getElementById("cv-content");
 
   let content = `<h2>Informations personnelles</h2>
-    <p><strong>Nom :</strong> ${cv.personalInfo.name}</p>
-    <p><strong>Localisation :</strong> ${cv.personalInfo.location}</p>
-    <p><strong>Email :</strong> <a href="mailto:${cv.personalInfo.email}">${cv.personalInfo.email}</a></p>
-    <p><strong>Téléphone :</strong> <a href="tel:${cv.personalInfo.phone}">${cv.personalInfo.phone}</a></p>
-    <p><strong>LinkedIn :</strong> <a href="${cv.personalInfo.linkedIn}" target="_blank">Profil LinkedIn</a></p>`;
+    <div class="personal-info">
+      <p><strong>Nom :</strong> ${cv.personalInfo.name}</p>
+      <p><strong>Localisation :</strong> ${cv.personalInfo.location}</p>
+      <p><strong>Email :</strong> <a href="mailto:${cv.personalInfo.email}">${cv.personalInfo.email}</a></p>
+      <p><strong>Téléphone :</strong> <a href="tel:${cv.personalInfo.phone}">${cv.personalInfo.phone}</a></p>
+      <p><strong>LinkedIn :</strong> <a href="${cv.personalInfo.linkedIn}" target="_blank">Profil LinkedIn</a></p>
+    </div>`;
 
   content += `<h2>Expériences professionnelles</h2>`;
   cv.experiences.forEach((exp) => {
@@ -121,3 +125,15 @@ function displayCV(cv) {
 }
 
 displayCV(cvData);
+Explication des modifications :
+Couleurs modernes : Utilisation de bleu (#1e90ff) pour les titres, et un fond clair pour rendre l’ensemble du CV plus élégant.
+Design épuré : Le design est simple mais efficace, avec un header coloré et un contenu central aligné.
+Sections bien distinctes : Chaque section du CV est séparée pour plus de lisibilité, avec un fond blanc pour bien contraster avec le texte.
+Interaction utilisateur : Les liens pour ton email et LinkedIn sont interactifs avec un effet visuel lorsque l’on passe la souris dessus.
+Une fois que tu as intégré cette version du CV dans ton dépôt GitHub
+
+
+
+
+
+
