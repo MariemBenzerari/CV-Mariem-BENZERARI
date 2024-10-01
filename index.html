@@ -6,31 +6,94 @@
   <title>CV de Mariem Benzerari - Développeuse Full Stack</title>
   <style>
     body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f9;
-      margin: 20px;
-    }
-    h1, h2 {
+      font-family: 'Arial', sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 0;
       color: #333;
     }
+
+    header {
+      background-color: #1e90ff;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+      background-color: white;
+      box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+      color: #1e90ff;
+      border-bottom: 2px solid #1e90ff;
+      padding-bottom: 5px;
+      margin-bottom: 10px;
+    }
+
     .section {
       margin-bottom: 30px;
     }
+
     .section p {
+      margin: 10px 0;
+    }
+
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: #1e90ff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .personal-info p {
       margin: 5px 0;
     }
-    ul {
-      list-style: none;
-      padding: 0;
-    }
-    ul li {
-      margin-bottom: 5px;
+
+    footer {
+      text-align: center;
+      padding: 10px;
+      background-color: #f0f4f8;
+      margin-top: 20px;
+      color: #666;
     }
   </style>
 </head>
 <body>
+
+<header>
   <h1>CV de Mariem Benzerari</h1>
+</header>
+
+<div class="container">
   <div id="cv-content"></div>
-  <script src="cv.js"></script>
+</div>
+
+<footer>
+  <p>© 2024 Mariem Benzerari</p>
+</footer>
+
+<script src="cv.js"></script>
+
 </body>
 </html>
